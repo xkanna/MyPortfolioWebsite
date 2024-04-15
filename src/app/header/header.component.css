@@ -7,7 +7,7 @@
 
 .header-text {
     color: #5b4255;
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: monospace;
     text-align: center; 
 }
@@ -20,4 +20,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-text {
+        font-size: 2.5em; /* Adjust this value for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header-text {
+        font-size: 2em; /* Adjust this value for even smaller screens */
+    }
 }

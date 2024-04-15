@@ -1,10 +1,13 @@
 .bubble {
     background-image: url("../../assets/images/speech_bubble.png");
+    background-size: cover;
+    background-position:top;
     height: 680px;
     width: 1050px; 
     display:flex;
     justify-content: flex-start;
     margin-top: 50px;
+    flex-direction: row;
 }
 
 .main-speech {
@@ -19,4 +22,49 @@
 
 .highlight{
     color: #ed8fe5;
+}
+
+.clouds {
+    background-image: url("../../assets/images/clouds.gif");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 220px; 
+    margin-top: -180px;
+    margin-left: 600px;
+}
+
+.sparkle {
+    background-image: url("../../assets/images/clouds.gif");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 160px; 
+    display:flex;
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .bubble {
+        height: 300px;
+        width: 450px;
+        margin-left: 50px;
+    }
+    .main-speech{
+        height: 230px;
+        width: 250px;
+        font-size: 9px;
+        margin-left: 10px;
+    }
+    .clouds{
+        height: 80px;
+        width: 90px;
+        margin-top:-90px;
+        margin-left: 300px;
+    }
+
+    .sparkle{
+        height: 80px;
+        width: 90px;
+    }
 }

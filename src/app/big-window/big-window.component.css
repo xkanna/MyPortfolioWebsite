@@ -24,3 +24,18 @@
     font-family: monospace;
     text-align: left; 
 }
+
+@media only screen and (max-width: 768px) {
+
+    .window{
+        height: 400px;
+        width: 400px; 
+    }
+
+    .text{
+        font-size: 10px;
+        width: 370px;
+        height: 350px;
+        margin-left: 20px;
+    }
+}
