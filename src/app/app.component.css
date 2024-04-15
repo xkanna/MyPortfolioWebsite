@@ -1,0 +1,10 @@
+.background {
+    background-image: url("../assets/images/pink-background.jpg");
+    background-color: white;
+    height: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

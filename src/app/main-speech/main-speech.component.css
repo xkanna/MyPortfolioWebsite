@@ -1,0 +1,22 @@
+.bubble {
+    background-image: url("../../assets/images/speech_bubble.png");
+    height: 680px;
+    width: 1050px; 
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.main-speech {
+    margin-left: 30px;
+    height: 300px;
+    width: 600px; 
+    color: #5b4255;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left; 
+}
+
+.highlight{
+    color: #ed8fe5;
+}
